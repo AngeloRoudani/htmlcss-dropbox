@@ -21,6 +21,26 @@ header nav {
     margin: 10px;
 }
 
+.top_main {
+    height: 700px;
+}
+
+.top_main h1 {
+    width: 70vw;
+    height: 250px;
+    background-color: blueviolet;
+}
+
+.description {
+    background-color: rgb(92, 43, 226);
+    height: 400px;
+}
+
+.firstpage {
+    display: inline-block;
+    height: 500px;
+    background-color: chocolate;
+}
 /*fine regole debug*/
 
 body {
@@ -36,4 +56,31 @@ body {
     top: 0;
     right: 0;
     left: 0;
+}
+
+.top_main {
+    background-color: rgba(180, 208, 231, 255);
+    width: 100vw;
+}
+
+.jumbotron {
+    width: 70vw;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.top_main h1 {
+    width: 70vw;
+    text-align: right;
+}
+
+.description {
+    width: 28vw;
+    float: left;
+    text-align: right;
+}
+
+.firstpage {
+    width: 40vw;
+    float: right;
 }
