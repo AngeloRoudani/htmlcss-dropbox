@@ -6,3 +6,34 @@
 
 /*regole di debug*/
 
+.border {
+    border: dashed 2px black;
+}
+
+.head {
+    height: 80px;
+}
+
+header nav {
+    background-color: green;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+}
+
+/*fine regole debug*/
+
+body {
+    position: relative;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
