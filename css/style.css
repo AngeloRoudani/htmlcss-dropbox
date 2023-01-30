@@ -93,6 +93,20 @@ header nav {
 .tools {
     height: 350px;
 }
+
+.space {
+    width: 60vw;
+    height: 200px;
+    background-color: rgb(205, 163, 245);
+}
+
+.main_bottom {
+    background-color: blueviolet;
+}
+
+.partner_left, .partner_right, .designit {
+    height: calc(100vw / 3);
+}
 /*fine regole debug*/
 
 body {
@@ -192,5 +206,28 @@ ul {
 .paragraph_half {
     display: inline-block;
     margin-left: 10px;
+}
+
+.space {
+    text-align: right;
+    margin-top: 150px;
+}
+
+.main_bottom {
+    width: 100vw;
+    margin-top: 150px;
+    display: flex;
+}
+
+.partner_left, .partner_right, .designit {
+    width: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner_photo {
+    display: inline-block;
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
 }
 
