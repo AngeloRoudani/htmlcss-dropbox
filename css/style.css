@@ -121,6 +121,19 @@ header nav {
     height: 500px;
 }
 
+footer {
+    height: 600px;
+}
+
+.links {
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.utility {
+    height: 300px;
+}
+
 /*fine regole debug*/
 
 body {
@@ -260,5 +273,21 @@ ul {
 .faq {
     width: 60vw;
     margin: 100px auto;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    padding-top: 80px;
+}
+
+.links {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+}
+
+.utility {
+    width: calc(100% / 5);
 }
 
