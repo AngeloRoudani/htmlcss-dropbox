@@ -41,6 +41,29 @@ header nav {
     height: 500px;
     background-color: chocolate;
 }
+
+.choose_business {
+    width: 60vw;
+    height: 30px;
+    margin: 60px auto 40px auto;
+    background-color: rgb(247, 158, 43);
+}
+
+.bills {
+    height: 20px;
+    margin: 15px auto 15px 0;
+    background-color: aqua;
+}
+
+.cards {
+    height: 800px;
+    background-color: cornflowerblue;
+}
+
+.type {
+    height: 50px;
+    width: 19vw;
+}
 /*fine regole debug*/
 
 body {
@@ -51,22 +74,27 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(44, 27, 27);
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+    z-index: 99;
+}
+
+main {
+    overflow-y: scroll;
 }
 
 .top_main {
     background-color: rgba(180, 208, 231, 255);
     width: 100vw;
+    margin-top: 80px;
 }
 
 .jumbotron {
     width: 70vw;
     margin: auto;
-    padding-top: 40px;
 }
 
 .top_main h1 {
@@ -77,10 +105,36 @@ body {
 .description {
     width: 28vw;
     float: left;
-    text-align: right;
+    text-align: left;
 }
 
 .firstpage {
     width: 40vw;
     float: right;
+    clear: right;
+}
+
+.middle {
+    width: 60vw;
+    margin: 150px auto;
+}
+
+.choose_busines {
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+}
+
+.columns {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.cards {
+    width: 19vw;
+    display: flex;
 }
