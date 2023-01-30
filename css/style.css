@@ -115,6 +115,12 @@ header nav {
 .container_free {
     height: 80px;
 }
+
+.faq {
+    background-color: rgb(65, 124, 7);
+    height: 500px;
+}
+
 /*fine regole debug*/
 
 body {
@@ -249,5 +255,10 @@ ul {
     width: 60vw;
     margin: auto;
     padding-top: 60px;
+}
+
+.faq {
+    width: 60vw;
+    margin: 100px auto;
 }
 
