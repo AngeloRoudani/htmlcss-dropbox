@@ -89,6 +89,10 @@ header nav {
     width: 18vw;
     height: 350px;
 }
+
+.tools {
+    height: 350px;
+}
 /*fine regole debug*/
 
 body {
@@ -156,12 +160,14 @@ ul {
     width: 60vw;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 
 .cards {
     width: 19vw;
     display: flex;
+    margin-top: 20px;
 }
 
 .team {
