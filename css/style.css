@@ -107,6 +107,14 @@ header nav {
 .partner_left, .partner_right, .designit {
     height: calc(100vw / 3);
 }
+
+.free_trial {
+    height: 200px;
+}
+
+.container_free {
+    height: 80px;
+}
 /*fine regole debug*/
 
 body {
@@ -229,5 +237,17 @@ ul {
     display: inline-block;
     width: calc(100vw / 6);
     height: calc(100vw / 6);
+}
+
+.free_trial {
+    width: 100vw;
+    background-color: rgba(180, 208, 231, 255) ;
+    padding-top: 60px;
+}
+
+.container_free {
+    width: 60vw;
+    margin: auto;
+    padding-top: 60px;
 }
 
