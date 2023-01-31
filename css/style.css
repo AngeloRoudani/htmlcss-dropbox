@@ -396,10 +396,16 @@ main {
 }
 
 .partner_photo {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(100vw / 6);
     height: calc(100vw / 6);
+}
+
+.photo {
     transform: scale(0.4);
+    filter: invert(100%);
 }
 
 .alfa {
@@ -427,6 +433,26 @@ main {
 }
 .theta {
     background-color: rgba(255, 216, 48, 255);
+}
+
+.designit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-left: 30px;
+    overflow: scroll;
+    background-color: rgba(245, 245, 245, 255);
+}
+
+.designit img {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.designit p, hr, span {
+    padding-top: 25px;
+    font-size: 12px;
 }
 
 
