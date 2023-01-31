@@ -301,6 +301,21 @@ hr.hardrule {
     border-top: solid 1px rgba(0, 0, 0, 0.397) ;
 }
 
+.got_it h5, ul {
+    padding-top: 30px;
+}
+
+.piano li {
+    list-style: none;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.piano li i {
+    color: rgb(50, 137, 252);
+}
+
 .team {
     width: 60vw;
     margin-top: 50px;
