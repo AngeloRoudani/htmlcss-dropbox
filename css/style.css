@@ -11,36 +11,6 @@
 }
 
 
-.type_team {
-    width: 60vw;
-    height: 30px;
-}
-
-.contact {
-    background-color: aqua;
-    height: 500px;
-}
-
-.half_main {
-    width: 39vw;
-    height: 450px;
-}
-
-.paragraph_half {
-    width: 18vw;
-    height: 350px;
-}
-
-.tools {
-    height: 350px;
-}
-
-.space {
-    width: 60vw;
-    height: 200px;
-    background-color: rgb(205, 163, 245);
-}
-
 .main_bottom {
     background-color: blueviolet;
 }
@@ -83,7 +53,7 @@ body {
 }
 
 .head {
-    height: 5vh;
+    height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -100,7 +70,7 @@ body {
     width: 30vw;
     margin: 15px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .topbar {
@@ -186,13 +156,13 @@ main {
 }
 
 .middle {
-    width: 60vw;
+    width: 50vw;
     margin: 150px auto;
 }
 
 .choose_busines {
     text-align: left;
-    width: 55vw;
+    width: 45vw;
     height: 30px;
     margin: 60px auto 40px auto;
 }
@@ -228,7 +198,7 @@ main {
 }
 
 .columns {
-    width: 60vw;
+    width: 50vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -236,7 +206,7 @@ main {
 }
 
 .cards {
-    width: 19vw;
+    width: 15vw;
     display: flex;
     flex-direction: column;
     border: solid 1px rgba(0, 0, 0, 0.397);
@@ -247,7 +217,7 @@ main {
     padding-top: 12px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.397);
     height: 50px;
-    width: 19vw;
+    width: 15vw;
 }
 
 .price, .available, .hardrule, .got_it {
@@ -306,12 +276,15 @@ main {
 }
 
 .team {
-    width: 60vw;
+    margin: auto;
+    width: 50vw;
     margin-top: 50px;
     border: solid 1px rgba(0, 0, 0, 0.397);
+
 }
 
 .type_team {
+    width: 50vw;
     text-align: center;
     border-bottom: solid 1px rgba(0, 0, 0, 0.397);
     padding-top: 5px;
@@ -349,26 +322,69 @@ main {
     font-size: 12px;
 }
 
-
-
 .contact {
-    width: 60vw;
+    width: 50vw;
     margin-top: 150px;
+    padding-bottom: 150px;
 }
 
 .half_main {
     display: block;
     float: left;
+    width: 27vw;
+    height: 450px;
 }
 
 .paragraph_half {
     display: inline-block;
     margin-left: 10px;
+    width: 17vw;
+    height: 350px;
+    padding: 50px 0 0 20px;
+}
+
+.paragraph_half h3 {
+    padding-bottom: 10px;
+
+}
+.paragraph_half p {
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bianco {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+.tools {
+    border: none;
+    min-height: 400px;
+}
+
+.tools h4 {
+    padding-top: 20px;
+}
+
+.tools p {
+    padding-top: 30px;
+    font-size: 12px;
 }
 
 .space {
-    text-align: right;
+    width: 50vw;
+    height: 200px;
+    text-align: left;
     margin-top: 150px;
+    padding-right: 20vw;
+}
+
+.space a {
+    display: inline-block;
+    padding-top: 50px;
+    font-size: 12px;
 }
 
 .main_bottom {
