@@ -11,21 +11,6 @@
 }
 
 
-.cards {
-    height: 800px;
-    /*background-color: cornflowerblue;*/
-}
-
-.type {
-    height: 50px;
-    width: 19vw;
-}
-
-.team {
-    height: 300px;
-    background-color: rgb(95, 95, 243);
-}
-
 .type_team {
     width: 60vw;
     height: 30px;
@@ -297,12 +282,16 @@ main {
     margin-top: 40px;
 }
 
-hr.hardrule {
+.hardrule {
+    border: none;
     border-top: solid 1px rgba(0, 0, 0, 0.397) ;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 40px;
 }
 
 .got_it h5, ul {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .piano li {
@@ -319,11 +308,48 @@ hr.hardrule {
 .team {
     width: 60vw;
     margin-top: 50px;
+    border: solid 1px rgba(0, 0, 0, 0.397);
 }
 
 .type_team {
     text-align: center;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.397);
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
 }
+
+.sales_office {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales_left {
+    width: 60%;
+}
+
+.sales_left h2,h5 {
+    padding: 15px ;
+}
+
+.sales_left p {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 20px 0 15px 15px;
+}
+
+.sales_right{
+    width: 40%;
+    padding: 20px 20px 0 20px;
+    text-align: right;
+}
+
+.b_office {
+    width: 70%;
+    font-size: 12px;
+}
+
+
 
 .contact {
     width: 60vw;
