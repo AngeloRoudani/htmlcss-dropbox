@@ -11,10 +11,6 @@
 }
 
 
-.main_bottom {
-    background-color: blueviolet;
-}
-
 .partner_left, .partner_right, .designit {
     height: calc(100vw / 3);
 }
@@ -403,7 +399,36 @@ main {
     display: inline-block;
     width: calc(100vw / 6);
     height: calc(100vw / 6);
+    transform: scale(0.4);
 }
+
+.alfa {
+    background-color: rgba(162, 211, 155, 255);
+}
+
+.beta {
+    background-color: rgba( 94, 8, 42, 255);
+}
+.gamma {
+    background-color: rgba(0, 147, 206, 255);
+    
+}
+.delta {
+    background-color: rgba(242, 26, 26, 255);
+}
+.epsilon {
+    background-color: rgba(213, 0, 31, 255);
+}
+.zeta {
+    background-color: rgba(180, 208, 231, 255);
+}
+.eta {
+    background-color: rgba(13, 36, 129, 255);
+}
+.theta {
+    background-color: rgba(255, 216, 48, 255);
+}
+
 
 .free_trial {
     width: 100vw;
