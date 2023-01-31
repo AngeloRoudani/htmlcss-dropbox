@@ -11,22 +11,9 @@
 }
 
 
-.choose_business {
-    width: 60vw;
-    height: 30px;
-    margin: 60px auto 40px auto;
-    background-color: rgb(247, 158, 43);
-}
-
-.bills {
-    height: 20px;
-    margin: 15px auto 15px 0;
-    background-color: aqua;
-}
-
 .cards {
     height: 800px;
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
 }
 
 .type {
@@ -137,9 +124,12 @@ body {
     align-items: center;
 }
 
+.topbar li {
+    list-style: none;
+}
+
 .topbar li a {
     text-decoration: none;
-    list-style: none;
     color: black;
     font-size: 12px;
     font-weight: 400;
@@ -159,7 +149,6 @@ main {
 .top_main {
     background-color: rgba(180, 208, 231, 255);
     width: 100vw;
-    padding-top: 80px;
     height: 65vh;
 }
 
@@ -173,7 +162,8 @@ main {
     text-align: left;
     font-size: 50px;
     height: 25vh;
-    padding-top: 50px;
+    padding-top: 80px;
+    padding-right: 200px;
 }
 
 .description {
@@ -216,11 +206,40 @@ main {
 }
 
 .choose_busines {
-    text-align: right;
+    text-align: left;
+    width: 55vw;
+    height: 30px;
+    margin: 60px auto 40px auto;
 }
 
-ul {
+.bills {
+    height: 20px;
+    margin: 25px auto 15px 0;
+}
+
+.checklist li {
     list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.check_first {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 3px rgba(0, 97, 255, 255);
+    border-radius: 50%;
+    margin-right: 5px
+}
+
+.check_second {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.397);
+    border-radius: 50%;
+    margin-right: 5px;
 }
 
 .columns {
@@ -234,7 +253,26 @@ ul {
 .cards {
     width: 19vw;
     display: flex;
-    margin-top: 20px;
+    flex-direction: column;
+    border: solid 1px rgba(0, 0, 0, 0.397);
+}
+
+.type {
+    text-align: center;
+    padding-top: 12px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.397);
+    height: 50px;
+    width: 19vw;
+}
+
+.price {
+    padding: 30px 20px;
+}
+
+.price span {
+    display: block;
+    text-align: left;
+    padding-top: 15px;
 }
 
 .team {
