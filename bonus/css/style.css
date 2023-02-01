@@ -23,19 +23,19 @@ body {
     right: 0;
     left: 0;
     z-index: 99;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.164);
 }
 
 .top_barleft, .top_barright {
     width: 30vw;
-    margin: 15px;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding: 15px;
 }
 
 .topbar {
+    height: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
 }
 
 .topbar li {
@@ -49,11 +49,20 @@ body {
     font-weight: 400;
 }
 
+.topbar li:last-child {
+    padding-bottom: 15px;
+}
+
 .pulsanti {
     background-color: rgba(0, 97, 255, 255);
     border-style: none;
     color: white;
     padding: 8px;
+    align-self: center;
+}
+
+.topbar li:hover {
+    border-bottom: solid 2px blue;
 }
 
 main {
