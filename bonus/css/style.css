@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Barra di navigazione*/
+body {
+    position: relative;
+    font-family: sans-serif;
+}
+
+.head {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.top_barleft, .top_barright {
+    width: 30vw;
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar li {
+    list-style: none;
+}
+
+.topbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.pulsanti {
+    background-color: rgba(0, 97, 255, 255);
+    border-style: none;
+    color: white;
+    padding: 8px;
+}
+
+main {
+    overflow-y: scroll;
+}
+
+/*Jumbotron*/
+
+.top_main {
+    background-color: rgba(180, 208, 231, 255);
+    width: 100vw;
+    min-height: 65vh;
+}
+
+.jumbotron {
+    width: 60vw;
+    margin: auto;
+}
+
+.top_main h1 {
+    width: 60vw;
+    text-align: left;
+    font-size: 50px;
+    min-height: 200px;
+    padding-top: 80px;
+    padding-right: 200px;
+}
+
+.container_jumbo {
+    width: 60vw;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, .container_jumbo {
+    position: relative;
+    top: 80px;
+}
+
+.description {
+    width: 20vw;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    height: 370px;
+}
+
+.description span {
+    display: block;
+    text-align: left;
+}
+
+.description a {
+    font-size: 40px;
+    color: black;
+    padding-top: 30px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.des {
+    margin-bottom: 20px;
+}
+
+.firstpage {
+    width: 40vw;
+}
+
+.middle {
+    width: 50vw;
+    margin: 150px auto;
+    padding-top: 20px;
+}
+
+/*Piani di pagamento*/
+
+.choose_busines {
+    text-align: left;
+    width: 45vw;
+    height: 30px;
+    margin: 60px auto 40px auto;
+}
+
+.bills {
+    height: 20px;
+    margin: 25px auto 15px 0;
+}
+
+.checklist li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.check_first {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 3px rgba(0, 97, 255, 255);
+    border-radius: 50%;
+    padding: 5px
+}
+
+.check_second {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.397);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.columns {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.cards {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgba(0, 0, 0, 0.397);
+}
+
+.type {
+    text-align: center;
+    padding-top: 12px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.397);
+    height: 50px;
+    width: 15vw;
+}
+
+.price, .available, .hardrule, .got_it {
+    padding: 20px 20px;
+}
+
+.price span {
+    display: block;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.prezzo {
+    font-weight: bold;
+}
+
+.opaco {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.397);
+}
+
+.available span {
+    display: block;
+    text-align: left;
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.move {
+    text-indent: -7px;
+    padding-left: 7px;
+}
+
+.p_cards {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.hardrule {
+    border: none;
+    border-top: solid 1px rgba(0, 0, 0, 0.397) ;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.got_it h5, ul {
+    padding-top: 20px;
+}
+
+.piano li {
+    list-style: none;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.piano li i {
+    color: rgb(50, 137, 252);
+}
+
+/*Trova i partner*/
+
+.team {
+    margin: auto;
+    width: 50vw;
+    margin-top: 50px;
+    border: solid 1px rgba(0, 0, 0, 0.397);
+
+}
+
+.type_team {
+    width: 50vw;
+    text-align: center;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.397);
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sales_office {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales_left {
+    width: 60%;
+}
+
+.sales_left h2,h5 {
+    padding: 15px ;
+}
+
+.sales_left p {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 20px 0 15px 15px;
+}
+
+.sales_right{
+    width: 40%;
+    padding: 20px 20px 0 20px;
+    text-align: right;
+}
+
+.b_office {
+    width: 70%;
+    font-size: 12px;
+}
+
+.contact {
+    width: 50vw;
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+
+.half_main {
+    display: block;
+    float: left;
+    width: 27vw;
+    height: 450px;
+}
+
+.paragraph_half {
+    display: inline-block;
+    margin-left: 10px;
+    width: 17vw;
+    height: 350px;
+    padding: 50px 0 0 20px;
+}
+
+.paragraph_half h3 {
+    padding-bottom: 10px;
+
+}
+.paragraph_half p {
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bianco {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+/*Le operazioni di dropbox business*/
+.tools {
+    border: none;
+    min-height: 400px;
+}
+
+.tools h4 {
+    padding-top: 20px;
+}
+
+.tools p {
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+.space {
+    width: 50vw;
+    height: 200px;
+    text-align: left;
+    margin-top: 80px;
+}
+.space h1 {
+    padding: 20px 500px 150px 0;
+}
+.space a {
+    display: inline-block;
+    padding-top: 50px;
+    font-size: 12px;
+}
+
+.main_bottom {
+    width: 100vw;
+    margin-top: 150px;
+    display: flex;
+}
+
+/*Grandi Clienti */
+
+.partner_left, .partner_right, .designit {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+}
+
+.photo {
+    transform: scale(0.4);
+    filter: invert(100%);
+}
+
+.alfa {
+    background-color: rgba(162, 211, 155, 255);
+}
+
+.beta {
+    background-color: rgba( 94, 8, 42, 255);
+}
+.gamma {
+    background-color: rgba(0, 147, 206, 255);
+    
+}
+.delta {
+    background-color: rgba(242, 26, 26, 255);
+}
+.epsilon {
+    background-color: rgba(213, 0, 31, 255);
+}
+.zeta {
+    background-color: rgba(180, 208, 231, 255);
+}
+.eta {
+    background-color: rgba(13, 36, 129, 255);
+}
+.theta {
+    background-color: rgba(255, 216, 48, 255);
+}
+
+.designit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-left: 30px;
+    overflow: scroll;
+    background-color: rgba(245, 245, 245, 255);
+}
+
+.designit img {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.designit p, hr, span {
+    padding-top: 25px;
+    font-size: 12px;
+}
+
+
+.free_trial {
+    width: 100vw;
+    background-color: rgba(180, 208, 231, 255) ;
+}
+
+.container_free {
+    width: 50vw;
+    margin: auto;
+    padding: 80px 0 80px 0;
+}
+
+.free_title {
+    display: inline-block;
+    padding-right: 100px;
+    color: rgba(96, 5, 40, 255);
+}
+
+.trial {
+    border: none;
+    margin-left: 100px;
+}
+
+/*Le domande Frequenti*/
+
+.faq {
+    width: 50vw;
+    margin: 50px auto;
+    padding: 50px 0 50px 0;
+    
+}
+
+.faq h1, .blocco_q {
+    text-align: left;
+    border-bottom: solid 1px black;
+}
+
+.faq h1 {
+    margin-bottom: 80px;
+    padding: 20px 0 60px 0;
+}
+
+.questions, .spunta {
+    display: inline-block;
+    padding: 30px 0 30px 0;
+    font-size: 14px bold;
+}
+
+.spunta {
+    position: relative;
+    left: 400px;
+}
+
+/*Link a piè pagina*/
+
+footer {
+    width: 100vw;
+    background-color: black;
+    padding: 50px 0 80px 0;
+}
+
+.links {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.utility {
+    width: calc(100% / 5);
+    color: white;
+    font-size: 12px;
+}
+
+.utility ul li {
+    list-style: none;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.utility h5 {
+    font-size: 18px;
+    padding-left: 0px;
+}
+
+.white {
+    width: 60%;
+    border-bottom: solid 1px white;
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
