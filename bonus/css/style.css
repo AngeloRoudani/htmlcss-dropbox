@@ -59,6 +59,11 @@ body {
     color: white;
     padding: 8px;
     align-self: center;
+    transition: 0.3s;
+}
+
+.pulsanti:hover {
+    filter: opacity(40%);
 }
 
 .topbar li:hover {
