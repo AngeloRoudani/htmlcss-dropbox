@@ -506,28 +506,24 @@ h1, .container_jumbo {
     position: relative;
 }
 
+.mark {
+    font-weight: bold;
+}
+
 .answer {
     display: none;
 }
 
 .blocco_q:active .answer {
-    display: block;
+    display: inline-block;
 }
 
 .spunta {
-    position: relative;
     left: 400px;
 }
 
-.hidden {
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: none;
-}
-
-.blocco_q:active .hidden {
-    display: block;
+.blocco_q:active .spunta {
+    transform: rotate(180deg);
 }
 
 /*Link a piè pagina*/
