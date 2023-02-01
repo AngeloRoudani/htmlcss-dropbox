@@ -220,6 +220,11 @@ h1, .container_jumbo {
     font-weight: 500;
 }
 
+.move {
+    text-indent: -7px;
+    padding-left: 7px;
+}
+
 .p_cards {
     width: 100%;
     margin-top: 40px;
@@ -503,6 +508,7 @@ footer {
     width: 60vw;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -524,15 +530,8 @@ footer {
 }
 
 .white {
-    width: 10vw;
-    margin: 40px 0 20px 380px;
+    width: 60%;
     border-bottom: solid 1px white;
-}
-
-.language {
-    width: 60vw;
-    margin: auto;
-    padding-top: 30px;
-    font-size: 11px;
-    color: white;
+    margin-left: 0px;
+    margin-bottom: 50px;
 }
