@@ -492,6 +492,7 @@ h1, .container_jumbo {
 .faq h1, .blocco_q {
     text-align: left;
     border-bottom: solid 1px black;
+    position: relative;
 }
 
 .faq h1 {
@@ -504,6 +505,10 @@ h1, .container_jumbo {
     padding: 30px 0 30px 0;
     font-size: 14px bold;
     position: relative;
+}
+
+.questions {
+    width: 70%;
 }
 
 .mark {
@@ -519,7 +524,10 @@ h1, .container_jumbo {
 }
 
 .spunta {
-    left: 400px;
+    position: absolute;
+    width: 25%;
+    right: 40px;
+    top: 0;
 }
 
 .blocco_q:active .spunta {
